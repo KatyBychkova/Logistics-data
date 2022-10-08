@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body class="centered-wrapper">
+    <div class="wrapper">
+      <table class="table">
+        <caption class="table__title">
+          Логистические данные:
+        </caption>
+        <thead class="table__head">
+          <tr class="table__header">
+            <th class="table__header-name" rowspan="2">
+              Вес шт.<br />
+              Брутто, кг
+            </th>
+            <th class="table__header-name" rowspan="2">
+              Кол-во шт.<br />в упаковке
+            </th>
+            <th class="table__header-name" rowspan="2">
+              Тип <br />
+              упаковки
+            </th>
+            <th
+              class="table__header-name with-right-pseudo-element"
+              rowspan="2"
+            >
+              Вес упаковки <br />
+              Брутто, кг
+            </th>
+            <th
+              class="table__header-name table__header-name--package-size"
+              colspan="3"
+              scope="colgroup"
+            >
+              Размер упаковки, мм <br />
+            </th>
+            <th class="table__header-name" rowspan="2">Объем, м3<br />&nbsp</th>
+          </tr>
+
+          <tr class="table__header-name-for-sizes">
+            <th scope="col">длина</th>
+            <th scope="col">ширина</th>
+            <th scope="col">высота</th>
+          </tr>
+        </thead>
+
+        <tbody class="table__body">
+          <tr class="table__row">
+            <td class="table__row-value" rowspan="2">0,277</td>
+            <td class="table__row-value" rowspan="2">36</td>
+            <td class="table__row-value" rowspan="2">короб</td>
+            <td class="table__row-value with-right-pseudo-element" rowspan="2">
+              65
+            </td>
+            <td
+              class="table__row-value table__row-value--package-size"
+              colspan="3"
+            ></td>
+            <td class="table__row-value" rowspan="2">0,03</td>
+          </tr>
+          <tr class="table__row-value-for-sizes">
+            <td scope="col">380</td>
+            <td scope="col">255</td>
+            <td scope="col">315</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="schema">
+        <div class="schema__packaging">
+          <div class="schema__packaging-inner">
+              <img class="schema__packaging-image"
+                src="./images/packaging-image.svg"
+                alt="упаковка с размерами"
+              />
+            <span class="schema__packaging-item schema__packaging-item--weight">13,77</span>
+            <span class="schema__packaging-item schema__packaging-item--volume">V= 0,03</span>
+            <span class="schema__packaging-item schema__packaging-item--height">195 мм</span>
+            <span class="schema__packaging-item schema__packaging-item--width">310 мм</span>
+            <span class="schema__packaging-item schema__packaging-item--length">518 мм</span>
+           </div>              
+        </div>
+        <div class="schema__total">
+          <div class="schema__total-inner">
+              <img
+                class="schema__total-image"
+                src="./images/total-image.svg"
+                alt="количество коробок"
+              />
+              <span class="schema__total-item schema__total-item--box-quantity"><b>2</b> короба</span>
+              <span class="schema__total-item schema__total-item--box-width">232</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
