@@ -1,9 +1,8 @@
 # Logistics-data
-
-## Available Scripts
-
-In the project directory, you can run:
+Небольшой блок с таблицей и схемой.
+Использованй HTML и CSS
 
 ### `gulp`
+откроет страницу на локальном сервере [http://localhost:3000](http://localhost:3000).
 
-It  open the app on [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Скриншот](https://i.ibb.co/9cDwdpG/localhost-3000.png)
